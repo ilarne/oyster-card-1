@@ -30,7 +30,7 @@ $ pry
 
 ## Running the tests
 
-Run tests with RSpec. From cloned oyster-card-1 directory, run:
+Run tests with RSpec. From cloned oyster-card-1 directory, enter:
 
 `$ rspec`
 
