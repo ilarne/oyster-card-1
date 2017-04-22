@@ -1,7 +1,7 @@
 Oyster Card Challenge
 ======
 
-A basic programme that mimics the functionality of a TFL Oyster Card. 
+A programme that mimics the functionality of a TFL Oyster Card. 
 
 ## Getting Started
 
