@@ -28,6 +28,27 @@ $ gem install pry
 $ pry
 ```
 
+## PRY example 
+```
+[1] pry(main)> require './lib/oystercard'
+=> true
+[2] pry(main)> card = Oystercard.new
+=> #<Oystercard:0x007fb5468843b8 @balance=0, @journey=#<Journey:0x007fb546884318>, @journey_history=[]>
+[3] pry(main)> card.top_up(50)
+=> 50
+[4] pry(main)> card.touch_in('Peckham')
+=> "Peckham"
+[5] pry(main)> card
+=> #<Oystercard:0x007fb5468843b8 @balance=50, @journey=#<Journey:0x007fb546884318 @entry_station_name="Peckham">, @journey_history=[]>
+[6] pry(main)> card.touch_out('Dalston')
+=> nil
+[7] pry(main)> card
+=> #<Oystercard:0x007fb5468843b8
+ @balance=49,
+ @journey=#<Journey:0x007fb546884318 @entry_station_name=nil, @exit_station_name="Dalston">,
+ @journey_history=[{:entry_station=>"Peckham", :exit_station=>"Dalston"}]>
+```
+
 ## Running the tests
 
 Run tests with RSpec. From cloned oyster-card-1 directory, enter:
