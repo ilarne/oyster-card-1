@@ -9,10 +9,12 @@ A basic programme that mimics the functionality of a TFL Oyster Card.
 
 1. IRB/PRY
 2. [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+3. [RSpec](http://rspec.info/)
 
 ### Installing
 
-The programme runs directly from the Command Line in IRB or PRY. 
+1. Clone this repo to local machine. 
+2. The programme runs directly from the Command Line in IRB or PRY. Navigate to your cloned oyster-card-1 directory and run preferred tool:
 
 **IRB**
 
@@ -20,17 +22,19 @@ The programme runs directly from the Command Line in IRB or PRY.
 * If you’re using Linux, open up a shell and type `irb` and hit enter.
 * If you’re using Windows, open `Interactive Ruby` from the Ruby section of your Start Menu.
 
-
 **PRY**
 ```
 $ gem install pry
 $ pry
 ```
 
-## Commands
-
 ## Running the tests
 
+Run tests with RSpec. From cloned oyster-card-1 directory, run:
+
+`$ rspec`
+
+to run tests.
 
 ## User Stories
 ```
